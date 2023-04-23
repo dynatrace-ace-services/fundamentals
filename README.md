@@ -21,7 +21,7 @@ In this QuickStart Ace Configurator you will do :
        "env" and "application name"  
        example : prd_easytravel 
 
-More details on how define HostGroup here: [HostGroup](/HostGroup) (for kube monitoring: HostGroup = KubeName)   
+More details on how define HostGroup here: [HostGroup](/hostgroup.md) (for kube monitoring: HostGroup = KubeName)   
 
 2) Create a Management zone for each application with monaco v2 based on 
 
@@ -43,4 +43,4 @@ DIY :
    ![image](https://user-images.githubusercontent.com/40337213/233844181-41f59b62-ca1c-45f0-9744-f786a3a7fc9a.png)
  - [run the monaco template](https://github.com/dynatrace-ace-services/dynatrace-lab/tree/main/project)
 
-Old template [quickstart configurator](https://github.com/dynatrace-ace-services/quickstart-ace-configurator-monacov1)
+Old template [quickstart configurator](https://github.com/dynatrace-ace-services/quickstart-ace-configurator-monaco-v1)
