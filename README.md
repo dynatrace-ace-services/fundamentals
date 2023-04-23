@@ -30,7 +30,7 @@ More details on how define HostGroup here: [HostGroup](/HostGroup) (for kube mon
 
  - Step 1 : install monaco on a tool host (your laptop or an activegate...) [monaco V2](https://www.dynatrace.com/support/help/manage/configuration-as-code/installation)
  - Step 2 : configure the [manifest.yaml](https://github.com/dynatrace-ace-services/dynatrace-lab/blob/main/manifest.yaml)
- - Step 3 : create your template monaco [example](https://github.com/dynatrace-ace-services/dynatrace-lab/tree/main/project)
+ - Step 3 : create your template monaco : see the example for "easytravel" [here](https://github.com/dynatrace-ace-services/dynatrace-lab/tree/main/project)
    ![image](https://user-images.githubusercontent.com/40337213/233844339-eb3a682b-de08-4630-abfc-5d647ddca1eb.png)
  - Step 4 : deploy with monaco [doc](https://www.dynatrace.com/support/help/manage/configuration-as-code):
  
