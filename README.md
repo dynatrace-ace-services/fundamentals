@@ -23,7 +23,7 @@ In this QuickStart Ace Configurator you will do :
 
 More details on how define HostGroup here: [HostGroup](/HostGroup) (for kube monitoring: HostGroup = KubeName)   
 
-2) Deploy configuration for each application with monaco v2 based on 
+2) Create a Management zone for each application with monaco v2 based on 
 
        HostGroupName = prd_easytravel
        DomainName = www.easytravel.com
