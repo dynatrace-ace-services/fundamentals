@@ -13,17 +13,14 @@ Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter with monaco template
  - Dynatrace Doc : [best-practice-tagging-at-scale](https://www.dynatrace.com/support/help/how-to-use-dynatrace/tags-and-metadata/basic-concepts/best-practice-tagging-at-scale)
  - Monaco V2 : [doc](https://www.dynatrace.com/support/help/manage/configuration-as-code)  
 
-## Best practices & configurations
-In this QuickStart Ace Configurator you will do : 
-
-1) Define the HostGroup (mandatory) : needs contain 
+## 1) Define the HostGroup (mandatory) : needs contain 
 
        "env" and "application name"  
        example : prd_easytravel 
 
 More details on how define HostGroup here: [HostGroup](/hostgroup.md) (for kube monitoring: HostGroup = KubeName)   
 
-2) Create a Management zone for each application with monaco v2 based on 
+## 2) Create a Management zone for each application with monaco v2 based on 
 
        HostGroupName = prd_easytravel
        DomainName = www.easytravel.com
@@ -36,11 +33,14 @@ More details on how define HostGroup here: [HostGroup](/hostgroup.md) (for kube 
  
        ./monaco deploy manifest.yaml  
 
-DIY :   
+## DIY with easytravel and monaco v2:   
+
  - [create a free trial](https://www.dynatrace.com/signup/)
  - [install easytravel](https://community.dynatrace.com/t5/Start-with-Dynatrace/easyTravel-Documentation-and-Download/td-p/181271)
  - install OneAgent with HostGroup = prd_easytravel
    ![image](https://user-images.githubusercontent.com/40337213/233844181-41f59b62-ca1c-45f0-9744-f786a3a7fc9a.png)
  - [run the monaco template](https://github.com/dynatrace-ace-services/dynatrace-lab/tree/main/project)
 
-Old template [quickstart configurator](https://github.com/dynatrace-ace-services/quickstart-ace-configurator-monaco-v1)
+## Old template (monaco v1):   
+
+[quickstart configurator](https://github.com/dynatrace-ace-services/quickstart-ace-configurator-monaco-v1)
