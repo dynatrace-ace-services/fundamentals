@@ -39,7 +39,7 @@ DIY :
  - [create a free trial](https://www.dynatrace.com/signup/)
  - [install easytravel](https://community.dynatrace.com/t5/Start-with-Dynatrace/easyTravel-Documentation-and-Download/td-p/181271)
  - install OneAgent with HostGroup = prd_easytravel
-   ![image](https://user-images.githubusercontent.com/40337213/233843254-384624e3-e6a4-4932-bde8-813531561bdd.png)
+   ![image](https://user-images.githubusercontent.com/40337213/233844181-41f59b62-ca1c-45f0-9744-f786a3a7fc9a.png)
  - [run the monaco template](https://github.com/dynatrace-ace-services/dynatrace-lab/tree/main/project)
 
-Old template [monacoV1]
+Old template [quickstart configurator](https://github.com/dynatrace-ace-services/quickstart-ace-configurator-monacov1)
